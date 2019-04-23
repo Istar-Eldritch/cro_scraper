@@ -1,0 +1,24 @@
+{
+  "name": "cro-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start:dev": "ts-node src/index.ts",
+    "start:stats": "ts-node src/stats.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/puppeteer": "1.12.3",
+    "ts-node": "8.0.3",
+    "tslint": "5.14.0",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "funfix": "7.0.1",
+    "puppeteer": "1.13.0"
+  }
+}
